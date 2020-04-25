@@ -70,8 +70,12 @@
 
 - 修改本地库上传网络库
 
+  > 不加-u
+  >
+  > 仅提交修改后的部分
+  
   ```
-  git push -u origin master
+  git push origin master
   ```
   
 
