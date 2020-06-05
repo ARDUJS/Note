@@ -46,7 +46,12 @@
 
 > 外接显示屏，过几分钟，自动睡眠，电源选项设置无效。
 
+##### First Step
+
 - win + R 输入 regedit
 - 选择路径：计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0 
 - 修改Attributes值为2 
 
+##### Second Step
+
+- 右键 -> 显示设置 -> 屏幕2 -> 使之成为我的主显示器
